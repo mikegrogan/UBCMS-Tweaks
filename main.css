@@ -14,22 +14,22 @@ div[name='Shared Content'][depth='0'],div[name='Shared Content'][depth='0'] + di
 }
 
 div[name='www.buffalo.edu'][depth='0'],div[name='www.buffalo.edu'][depth='0'] + div.is-opened div.spectrum-Collapsible-content div.secondaryContainer--E9SWw{
-background-color: #c3eac4 !important;
+  background-color: #c3eac4 !important;
 }
 
 #bookmarks{
 	text-align: center;
-    font-size: .875rem;
-    line-height: 2.375rem;
-    color: rgba(255,255,255,0.8);
-    cursor: pointer;
-    white-space: nowrap;
-    
-    font-family: adobe-clean,Helvetica,Arial,sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    position:relative;
-    float:right;
+  font-size: .875rem;
+  line-height: 2.375rem;
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+  white-space: nowrap;
+  
+  font-family: adobe-clean,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  position:relative;
+  float:right;
 }
 
 coral-shell-header-content{
@@ -40,8 +40,8 @@ coral-shell-header-content{
 	content: " \f17f";
 	font-family: AdobeSpectrumIcons24;
 	height: .75rem;
-    width: .75rem;
-    vertical-align: middle;
+  width: .75rem;
+  vertical-align: middle;
 }
 
 #bookmarkmenu{
