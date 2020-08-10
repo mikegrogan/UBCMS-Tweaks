@@ -1,0 +1,88 @@
+/*colors published date. change nth-child element to match your setup*/
+.foundation-layout-panel-content table td:nth-child(5) time{
+	color:#4ba322e6;
+}
+
+/*Bolding certain sites. Change as appropriate.*/
+div[name='Research and Economic Development'] .fnd-Cell-text--w_5fI{
+	font-weight:bold;
+}
+
+/*Color Coding folders*/
+div[name='Shared Content'][depth='0'],div[name='Shared Content'][depth='0'] + div.is-opened div.spectrum-Collapsible-content div.secondaryContainer--E9SWw{
+	background-color: #cbdff1 !important;
+}
+
+div[name='www.buffalo.edu'][depth='0'],div[name='www.buffalo.edu'][depth='0'] + div.is-opened div.spectrum-Collapsible-content div.secondaryContainer--E9SWw{
+background-color: #c3eac4 !important;
+}
+
+#bookmarks{
+	text-align: center;
+    font-size: .875rem;
+    line-height: 2.375rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    white-space: nowrap;
+    
+    font-family: adobe-clean,Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    position:relative;
+    float:right;
+}
+
+coral-shell-header-content{
+	width:30%;
+}
+
+#bookmarks > div:first-child::after{
+	content: " \f17f";
+	font-family: AdobeSpectrumIcons24;
+	height: .75rem;
+    width: .75rem;
+    vertical-align: middle;
+}
+
+#bookmarkmenu{
+	background-color:#fff;
+	max-width:500px;
+	max-height:500px;
+	position:absolute;
+	top:45px;
+	left:-65px;
+	color:#000;
+	z-index: 2;
+  border: 1px solid #a9a9a9;
+  text-align: left;
+  padding: 5px 10px 5px 5px;
+  overflow-y: auto;
+  display:none;
+  line-height: 1.3rem;    
+  -webkit-box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.5);
+}
+
+#bookmarkmenu h3{
+	margin:0px !important;
+}
+
+#bookmarkmenu ul li{
+	margin:0 !important;
+	padding:0 !important;
+}
+#bookmarkmenu ul li a,#bookmarkmenu ul li a:visited{
+	margin:0 !important;
+	padding:0 !important;
+	color:#326ec8;
+}
+
+/*edit page*/
+a.openlink,a.openlink:visited{
+	color:#969696;
+	text-decoration: none;
+}
+a.openlink:hover{
+	text-decoration: underline;
+}
